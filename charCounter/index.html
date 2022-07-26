@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Char COunter App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Real Time  Counter </h2>
+        <p>Check Your english for grammer spelling and puncuation errors with faisal real time char Counter</p>
+        <textarea  id="textarea" class="textarea" maxlength="150" placeholder="please write here"></textarea>
+
+        <button onclick="copyText()">copyText</button>
+
+        <div class="counter-container">
+            <p>Total character : <span id="total-counter">0</span></p>
+            <p>remaining char : <span id="remaining-counter">150</span></p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
